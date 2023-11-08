@@ -2,36 +2,100 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
-      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
-        <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
-          Create <span className="text-[hsl(280,100%,70%)]">T3</span> App
-        </h1>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
-          <Link
-            className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
-            href="https://create.t3.gg/en/usage/first-steps"
-            target="_blank"
-          >
-            <h3 className="text-2xl font-bold">First Steps →</h3>
-            <div className="text-lg">
-              Just the basics - Everything you need to know to set up your
-              database and authentication.
+    <div className="w-full h-screen flex flex-col">
+      <div className="flex flex-col gap-2">
+        <h2 className="text-xl font-semibold">Featured Streams</h2>
+        <div className="flex flex-row gap-4">
+          <div className="flex flex-col">
+            <div className="w-80 h-52 bg-gray-400 rounded-md"></div>
+            <div className="flex flex-col gap-1">
+              <div className="flex flex-col leading-tight mt-2">
+                <span>OG Fortnite W/ Dr Disrespect</span>
+                <span className="text-sm text-gray-400">Ninja</span>
+              </div>
+              <span className="text-sm hover:text-green-500 cursor-pointer">Fortnite</span>
             </div>
-          </Link>
-          <Link
-            className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
-            href="https://create.t3.gg/en/introduction"
-            target="_blank"
-          >
-            <h3 className="text-2xl font-bold">Documentation →</h3>
-            <div className="text-lg">
-              Learn more about Create T3 App, the libraries it uses, and how to
-              deploy it.
+          </div>
+          <div className="flex flex-col">
+            <div className="w-80 h-52 bg-gray-400 rounded-md"></div>
+            <div className="flex flex-col gap-1">
+              <div className="flex flex-col leading-tight mt-2">
+                <span>OG Fortnite W/ Dr Disrespect</span>
+                <span className="text-sm text-gray-400">Ninja</span>
+              </div>
+              <span className="text-sm hover:text-green-500 cursor-pointer">Fortnite</span>
             </div>
-          </Link>
+          </div>
+          <div className="flex flex-col">
+            <div className="w-80 h-52 bg-gray-400 rounded-md"></div>
+            <div className="flex flex-col gap-1">
+              <div className="flex flex-col leading-tight mt-2">
+                <span>OG Fortnite W/ Dr Disrespect</span>
+                <span className="text-sm text-gray-400">Ninja</span>
+              </div>
+              <span className="text-sm hover:text-green-500 cursor-pointer">Fortnite</span>
+            </div>
+          </div>
+        </div>
+        <div className="hidden border-b-2 border-secondary-lighter lg:block mt-10" />
+      </div>
+      <div className="mt-4">
+        <h2 className="text-xl font-semibold mb-4">Top Live Categories</h2>
+        <div className="flex flex-row gap-4">
+          <div className="flex flex-col">
+            <div className="w-36 h-52 bg-gray-400 rounded-md"></div>
+            <span className="font-semibold">Just Chatting</span>
+            <span className="text-sm text-gray-400">39,000 viewers</span>
+            <span className="bg-[#202225] rounded-full px-2 w-fit text-[0.75rem] text-gray-500 font-semibold">IRL</span>
+          </div>
+          <div className="flex flex-col">
+            <div className="w-36 h-52 bg-gray-400 rounded-md"></div>
+            <span className="font-semibold">Just Chatting</span>
+            <span className="text-sm text-gray-400">39,000 viewers</span>
+            <span className="bg-[#202225] rounded-full px-2 w-fit text-[0.75rem] text-gray-500 font-semibold">IRL</span>
+          </div>
+          <div className="flex flex-col">
+            <div className="w-36 h-52 bg-gray-400 rounded-md"></div>
+            <span className="font-semibold">Just Chatting</span>
+            <span className="text-sm text-gray-400">39,000 viewers</span>
+            <span className="bg-[#202225] rounded-full px-2 w-fit text-[0.75rem] text-gray-500 font-semibold">IRL</span>
+          </div>
+          <div className="flex flex-col">
+            <div className="w-36 h-52 bg-gray-400 rounded-md"></div>
+            <span className="font-semibold">Just Chatting</span>
+            <span className="text-sm text-gray-400">39,000 viewers</span>
+            <span className="bg-[#202225] rounded-full px-2 w-fit text-[0.75rem] text-gray-500 font-semibold">IRL</span>
+          </div>
+          <div className="flex flex-col">
+            <div className="w-36 h-52 bg-gray-400 rounded-md"></div>
+            <span className="font-semibold">Just Chatting</span>
+            <span className="text-sm text-gray-400">39,000 viewers</span>
+            <span className="bg-[#202225] rounded-full px-2 w-fit text-[0.75rem] text-gray-500 font-semibold">IRL</span>
+          </div>
+          <div className="flex flex-col">
+            <div className="w-36 h-52 bg-gray-400 rounded-md"></div>
+            <span className="font-semibold">Just Chatting</span>
+            <span className="text-sm text-gray-400">39,000 viewers</span>
+            <span className="bg-[#202225] rounded-full px-2 w-fit text-[0.75rem] text-gray-500 font-semibold">IRL</span>
+          </div>
+          <div className="flex flex-col">
+            <div className="w-36 h-52 bg-gray-400 rounded-md"></div>
+            <span className="font-semibold">Just Chatting</span>
+            <span className="text-sm text-gray-400">39,000 viewers</span>
+            <span className="bg-[#202225] rounded-full px-2 w-fit text-[0.75rem] text-gray-500 font-semibold">IRL</span>
+          </div>
+        </div>
+        <div className="hidden border-b-2 border-secondary-lighter lg:block mt-10" />
+      </div>
+      <div className="mt-4">
+        <h2 className="text-xl font-semibold mb-4">Top Live Categories</h2>
+        <div className="flex flex-row gap-5">
+          <div className="w-52 h-16 bg-gray-400 rounded-md"></div>
+          <div className="w-52 h-16 bg-gray-400 rounded-md"></div>
+          <div className="w-52 h-16 bg-gray-400 rounded-md"></div>
+          <div className="w-52 h-16 bg-gray-400 rounded-md"></div>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
