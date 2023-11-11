@@ -1,4 +1,6 @@
 import Link from "next/link";
+import StreamCategory from "./ui/stream-category";
+import StreamGroup from "./ui/stream-group";
 
 export default function HomePage() {
   return (
@@ -42,58 +44,22 @@ export default function HomePage() {
       <div className="mt-4">
         <h2 className="text-xl font-semibold mb-4">Top Live Categories</h2>
         <div className="flex flex-row gap-4">
-          <div className="flex flex-col">
-            <div className="w-36 h-52 bg-gray-400 rounded-md"></div>
-            <span className="font-semibold">Just Chatting</span>
-            <span className="text-sm text-gray-400">39,000 viewers</span>
-            <span className="bg-[#202225] rounded-full px-2 w-fit text-[0.75rem] text-gray-500 font-semibold">IRL</span>
-          </div>
-          <div className="flex flex-col">
-            <div className="w-36 h-52 bg-gray-400 rounded-md"></div>
-            <span className="font-semibold">Just Chatting</span>
-            <span className="text-sm text-gray-400">39,000 viewers</span>
-            <span className="bg-[#202225] rounded-full px-2 w-fit text-[0.75rem] text-gray-500 font-semibold">IRL</span>
-          </div>
-          <div className="flex flex-col">
-            <div className="w-36 h-52 bg-gray-400 rounded-md"></div>
-            <span className="font-semibold">Just Chatting</span>
-            <span className="text-sm text-gray-400">39,000 viewers</span>
-            <span className="bg-[#202225] rounded-full px-2 w-fit text-[0.75rem] text-gray-500 font-semibold">IRL</span>
-          </div>
-          <div className="flex flex-col">
-            <div className="w-36 h-52 bg-gray-400 rounded-md"></div>
-            <span className="font-semibold">Just Chatting</span>
-            <span className="text-sm text-gray-400">39,000 viewers</span>
-            <span className="bg-[#202225] rounded-full px-2 w-fit text-[0.75rem] text-gray-500 font-semibold">IRL</span>
-          </div>
-          <div className="flex flex-col">
-            <div className="w-36 h-52 bg-gray-400 rounded-md"></div>
-            <span className="font-semibold">Just Chatting</span>
-            <span className="text-sm text-gray-400">39,000 viewers</span>
-            <span className="bg-[#202225] rounded-full px-2 w-fit text-[0.75rem] text-gray-500 font-semibold">IRL</span>
-          </div>
-          <div className="flex flex-col">
-            <div className="w-36 h-52 bg-gray-400 rounded-md"></div>
-            <span className="font-semibold">Just Chatting</span>
-            <span className="text-sm text-gray-400">39,000 viewers</span>
-            <span className="bg-[#202225] rounded-full px-2 w-fit text-[0.75rem] text-gray-500 font-semibold">IRL</span>
-          </div>
-          <div className="flex flex-col">
-            <div className="w-36 h-52 bg-gray-400 rounded-md"></div>
-            <span className="font-semibold">Just Chatting</span>
-            <span className="text-sm text-gray-400">39,000 viewers</span>
-            <span className="bg-[#202225] rounded-full px-2 w-fit text-[0.75rem] text-gray-500 font-semibold">IRL</span>
-          </div>
+          <StreamCategory />
+          <StreamCategory />
+          <StreamCategory />
+          <StreamCategory />
+          <StreamCategory />
+          <StreamCategory />
         </div>
         <div className="hidden border-b-2 border-secondary-lighter lg:block mt-10" />
       </div>
       <div className="mt-4">
         <h2 className="text-xl font-semibold mb-4">Top Live Categories</h2>
         <div className="flex flex-row gap-5">
-          <div className="w-52 h-16 bg-gray-400 rounded-md"></div>
-          <div className="w-52 h-16 bg-gray-400 rounded-md"></div>
-          <div className="w-52 h-16 bg-gray-400 rounded-md"></div>
-          <div className="w-52 h-16 bg-gray-400 rounded-md"></div>
+          <StreamGroup />
+          <StreamGroup />
+          <StreamGroup />
+          <StreamGroup />
         </div>
       </div>
     </div>
