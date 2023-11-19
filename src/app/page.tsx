@@ -4,7 +4,7 @@ import StreamGroup from "./ui/stream-group";
 
 export default function HomePage() {
   return (
-    <div className="w-full h-screen flex flex-col">
+    <div className="w-full h-screen flex flex-col p-6">
       <div className="flex flex-col gap-2">
         <h2 className="text-xl font-semibold">Featured Streams</h2>
         <div className="flex flex-row gap-4">
@@ -15,7 +15,7 @@ export default function HomePage() {
                 <span>OG Fortnite W/ Dr Disrespect</span>
                 <span className="text-sm text-gray-400">Ninja</span>
               </div>
-              <span className="text-sm hover:text-green-500 cursor-pointer">Fortnite</span>
+              <span className="text-sm hover:text-primary cursor-pointer">Fortnite</span>
             </div>
           </div>
           <div className="flex flex-col">
@@ -25,7 +25,7 @@ export default function HomePage() {
                 <span>OG Fortnite W/ Dr Disrespect</span>
                 <span className="text-sm text-gray-400">Ninja</span>
               </div>
-              <span className="text-sm hover:text-green-500 cursor-pointer">Fortnite</span>
+              <span className="text-sm hover:text-primary cursor-pointer">Fortnite</span>
             </div>
           </div>
           <div className="flex flex-col">
@@ -35,7 +35,7 @@ export default function HomePage() {
                 <span>OG Fortnite W/ Dr Disrespect</span>
                 <span className="text-sm text-gray-400">Ninja</span>
               </div>
-              <span className="text-sm hover:text-green-500 cursor-pointer">Fortnite</span>
+              <span className="text-sm hover:text-primary cursor-pointer">Fortnite</span>
             </div>
           </div>
         </div>

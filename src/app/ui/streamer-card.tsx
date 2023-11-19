@@ -14,7 +14,7 @@ export default function StreamerCard() {
                 </div>
                 <div className="flex h-[34px] flex-shrink-0 flex-row flex-nowrap items-center justify-center text-sm font-light">
                     <div className="flex flex-row flex-nowrap items-center justify-end">
-                        <div className="h-[0.625rem] w-[0.625rem] rounded-full bg-green-500"></div>
+                        <div className="h-[0.625rem] w-[0.625rem] rounded-full bg-primary"></div>
                         <div>3,981</div>
                     </div>
                 </div>

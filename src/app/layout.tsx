@@ -28,7 +28,7 @@ export default function RootLayout({
             <div className="block w-[82px] px-4">
               <img src='/logo.png' alt='logo' className="" />
             </div>
-            <span className="text-white font-semibold hover:cursor-pointer hover:text-green-500">Browse</span>
+            <span className="text-white font-semibold hover:cursor-pointer hover:text-primary">Browse</span>
           </div>
           <div className="relative flex w-full items-center justify-end gap-3 px-2 md:justify-center lg:px-3">
             <div className="relative">
@@ -45,7 +45,7 @@ export default function RootLayout({
           </div>
           <div className="flex w-full items-center justify-end md:w-fit px-2 lg:px-3 gap-4">
             <button type='button' className="bg-none hover:bg-secondary font-semibold rounded-md w-full whitespace-nowrap p-2 text-white">Log In</button>
-            <button type='button' className="bg-green-500 hover:bg-green-600 font-semibold rounded-md w-full whitespace-nowrap p-2">Sign Up</button>
+            <button type='button' className="bg-primary hover:bg-green-600 font-semibold rounded-md w-full whitespace-nowrap p-[0.4rem]">Sign Up</button>
           </div>
         </nav>
         <main className="flex flex-row">
@@ -67,7 +67,7 @@ export default function RootLayout({
               </li>
             </ul>
           </div>
-          <div className="relative h-full w-full grow border-l border-secondary-lighter bg-black text-white p-6">
+          <div className="relative h-full w-full grow border-l border-secondary-lighter bg-black text-white">
             {children}
           </div>
         </main>
