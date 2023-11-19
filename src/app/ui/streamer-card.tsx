@@ -1,9 +1,12 @@
+import Link from "next/link";
+import Image from 'next/image';
+
 export default function StreamerCard() {
     return (
         <li className="flex flex-col gap-1 text-white cursor-pointer">
-            <a className="flex h-[2.75rem] w-100 flex-shrink-0 flex-grow-0 basis[2.75rem] items-center justify-center rounded-md hover:bg-secondary-lighter gap-4 overflow-hidden p-[0.375rem] transition-all duration-150 ease-out">
+            <Link href='/theholmes' className="flex h-[2.75rem] w-100 flex-shrink-0 flex-grow-0 basis[2.75rem] items-center justify-center rounded-md hover:bg-secondary-lighter gap-4 overflow-hidden p-[0.375rem] transition-all duration-150 ease-out">
                 <div className="h-[1.75rem] w-[1.75rem] flex-shrink-0 flex-grow-0 box-content">
-                    <img src="https://files.kick.com/images/user/22152266/profile_image/conversion/e7aa1bc4-bdfb-4839-8b74-e6321e5e5642-thumb.webp" alt="user" className="h-full w-full object-cover rounded-full" />
+                    <Image unoptimized width={200} height={200} src="https://files.kick.com/images/user/22152266/profile_image/conversion/e7aa1bc4-bdfb-4839-8b74-e6321e5e5642-thumb.webp" alt="user" className="h-full w-full object-cover rounded-full" />
                 </div>
                 <div className="w-100 overflow-hidden font-semibold leading-[1]">
                     <div className="overflow-ellipsis whitespace-nowrap">theholmes</div>
@@ -15,7 +18,7 @@ export default function StreamerCard() {
                         <div>3,981</div>
                     </div>
                 </div>
-            </a>
+            </Link>
         </li>
     )
 }
